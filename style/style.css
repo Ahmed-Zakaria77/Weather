@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imgs/ddd.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family:oblique;
+}
+.container-100 {
+    background: rgb(69,34,120);
+    background: linear-gradient(104deg, rgba(69,34,120,1) 13%, rgba(13,3,54,1) 55%, rgba(37,14,79,1) 100%);
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    background: rgb(69,34,120);
+    background: linear-gradient(104deg, rgba(69,34,120,1) 13%, rgba(13,3,54,1) 55%, rgba(37,14,79,1) 100%);}
+.navbar-collapse ul li {
+    position: relative;
+}
+
+.navbar-collapse ul li a {
+    padding: 5px 30px;
+    border: 2px solid transparent;
+    border-radius: 10px 0;
+    color:white !important;
+    transition: 0.5s ease;
+  }
+  .navbar-collapse ul li a:hover {
+    border-color: #a364ff;
+    color:#a364ff !important;
+  }
+
+.navbar-collapse a {
+    font-size: 1rem;
+    margin: 0 10px;
+    font-weight: 600;
+
+}
+
+.logos {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+
+
+.logo span {
+    font-size: 28px;
+    color:white
+}
+
+/*--------------------------------------------Search Section-------------------------------------*/
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.searchSection {
+   
+    height: 300px;
+    padding: 70px 0;
+}
+
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+
+form input,
+form textarea,
+form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+.find-location input[type="submit"],
+.find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+
+.button,
+form input[type="submit"],
+form input[type="button"],
+form button,
+form input[type="reset"] {
+    border: none;
+    background: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: darkslateblue;
+    transition: .5s;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+}
+#submit:hover{
+background-color: #452278;
+color: white;
+}
+#Subscribe:hover{
+    background-color: #452278;
+    color: white;
+    }
+
+/*--------------------------------------------------- Weather section--------------------------------------- */
+.weather {
+    margin-top: -150px;
+}
+
+.firstDay {
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 10px;
+
+}
+
+.today {
+    background-color:#452278;
+    border-radius: 10px;
+}
+.secondDay .days {
+    background-color:#452278;
+    border-radius: 10px;
+}
+    
+
+.thirdDay .days {
+    background-color: rgb(45, 48, 61);
+    border-radius: 10px;
+}
+
+.days p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.days {
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.secondDay {
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 10px;
+}
+
+.thirdDay {
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 10px;
+}
+
+.daydetails {
+    padding: 0 10px;
+}
+
+.firstDay h1 {
+    font-size: 80px;
+}
+
+.weathericons span {
+    margin-right: 30px;
+    padding-bottom: 30px;
+}
+
+.weathericons {
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+.weathericons img {
+    margin-right: 5px;
+}
+
+.degree {
+    position: relative;
+    top: -1.9rem;
+}
+
+.degreemax {
+    position: relative;
+    top: -0.9rem;
+}
+
+.degreemin {
+    position: relative;
+    top: -0.5rem;
+}
+
+.col-md-4 .item {
+    height: 450px;
+    margin-bottom: 50px;
+}
+/* ---------------------------------footer---------------------------------- */
+footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
+
+footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: white;
+    text-align: center;
+    transition: 0.5s ease;
+    font-size: 20px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.socials a:hover {
+    background: #452278;
+    color: white !important;
+    color: #1e202b;
+
+}
+
+@media (max-width: 358px) {
+    .col-md-4 .item {
+        height: 500px;
+    }
+}

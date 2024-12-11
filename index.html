@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="./imgs/logo.png">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type="text/css" />
+</head>
+
+<body>
+    <header id="home" class="position-relative">
+        <div class="container-100">
+            <div class="container ">
+                <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand fw-semibold logo" href="#">
+                            <img src="imgs/logo.png" alt="logo" />
+                            <div class="logos">
+                               <span>Weather</span>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 fw-semibold">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#about">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#service">Live Cameras</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#portfolio">Photos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="searchSection">
+        <div class="container">
+            <form class="find-location">
+                <input type="text" placeholder="Find your location.." id="search" />
+                <input type="button" value="Find" id="submit" />
+            </form>
+        </div>
+    </section>
+    <section class="weather">
+        <div class="container text-info">
+            <div class="row" id="weatherDiv"></div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" class="subscribe-form position-relative">
+                        <input type="text" placeholder="Enter your email to subscribe..." />
+                        <input type="submit" value="Subscribe" id="Subscribe" />
+                    </form>
+                </div>
+                <div class="col-md-3 ms-5">
+                    <div class="socials">
+                        <a target="_blank" href="">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a target="_blank" href="">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                        <a target="_blank" href="">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a target="_blank" href="">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-secondary mt-3">
+                Copyright 2014 Company name. Designed by Themezy. All rights reserved  </p>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
